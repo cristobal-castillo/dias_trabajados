@@ -44,4 +44,5 @@ df_resumen["Periodo"] = pd.to_datetime(
 # Reorganizar las columnas
 df_resumen = df_resumen[["Periodo", "Días Trabajados", "Feriados"]]
 
+
 print(df_resumen)
